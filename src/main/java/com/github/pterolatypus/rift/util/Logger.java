@@ -1,16 +1,19 @@
-package com.github.pterolatypus.rift.reference;
+package com.github.pterolatypus.rift.util;
+
+import com.github.pterolatypus.rift.reference.Reference;
+import net.minecraftforge.fml.common.FMLLog;
+import org.apache.logging.log4j.Level;
+
 
 /**
  * Rift is a modification for Minecraft, built against Minecraft Forge. Copyright (C) 2015 Pterolatypus
  * This program is free software: you can redistribute it and/or modify it under the terms of version 2 of the GNU General Public License as published by the Free Software Foundation.
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  */
-public class Reference {
+public class Logger {
 
-    public static final String MOD_ID = "rift";
-    public static final String MOD_NAME = "Rift";
-    public static final String MOD_VERSION = "1.8a1";
-    public static final String PROXY_CLIENT = "com.github.pterolatypus.rift.proxy.ClientProxy";
-    public static final String PROXY_SERVER = "com.github.pterolatypus.rift.proxy.ServerProxy";
+    public static void log(Level logLevel, Object obj) {
+        FMLLog.log(Reference.MOD_NAME, logLevel, String.valueOf(obj));
+    }
 
 }
