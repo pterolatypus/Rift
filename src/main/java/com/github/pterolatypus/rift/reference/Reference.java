@@ -5,11 +5,11 @@ package com.github.pterolatypus.rift.reference;
  * This program is free software: you can redistribute it and/or modify it under the terms of version 2 of the GNU General Public License as published by the Free Software Foundation.
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  */
-public class Strings {
+public class Reference {
 
-    public static final String MODID = "rift";
-    public static final String NAME = "Rift";
-    public static final String VERSION = "a1.1";
+    public static final String MOD_ID = "rift";
+    public static final String MOD_NAME = "Rift";
+    public static final String MOD_VERSION = "a1.1";
     public static final String PROXY_CLIENT = "com.github.pterolatypus.rift.proxy.ClientProxy";
     public static final String PROXY_SERVER = "com.github.pterolatypus.rift.proxy.ServerProxy";
 

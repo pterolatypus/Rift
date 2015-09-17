@@ -7,7 +7,7 @@ package com.github.pterolatypus.rift;
  */
 
 import com.github.pterolatypus.rift.proxy.IProxy;
-import com.github.pterolatypus.rift.reference.Strings;
+import com.github.pterolatypus.rift.reference.Reference;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -17,14 +17,14 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @SuppressWarnings("unused")
-@Mod(modid = Strings.MODID, name = Strings.NAME, version = Strings.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
 public class Rift
 {
 
-    @Mod.Instance("rift")
+    @Mod.Instance(Reference.MOD_ID)
     public static Rift instance;
 
-    @SidedProxy(clientSide = Strings.PROXY_CLIENT, serverSide = Strings.PROXY_SERVER)
+    @SidedProxy(clientSide = Reference.PROXY_CLIENT, serverSide = Reference.PROXY_SERVER)
     public static IProxy proxy;
 
     @SuppressWarnings("unused")
