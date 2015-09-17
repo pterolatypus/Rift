@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rift",
+  "name": "Rift",
+  "description": "Rift; all about teleporting.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Pterolatypus"],
+  "credits": "Everyone at Forge and FML, and Pahimar for Let's Mod and for making EE3 open-source.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
