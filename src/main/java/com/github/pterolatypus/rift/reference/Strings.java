@@ -10,5 +10,7 @@ public class Strings {
     public static final String MODID = "rift";
     public static final String NAME = "Rift";
     public static final String VERSION = "a1.1";
+    public static final String PROXY_CLIENT = "com.github.pterolatypus.rift.proxy.ClientProxy";
+    public static final String PROXY_SERVER = "com.github.pterolatypus.rift.proxy.ServerProxy";
 
 }

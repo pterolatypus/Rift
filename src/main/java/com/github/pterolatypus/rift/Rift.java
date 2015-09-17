@@ -1,9 +1,11 @@
 package com.github.pterolatypus.rift;
 
+import com.github.pterolatypus.rift.proxy.IProxy;
 import com.github.pterolatypus.rift.reference.Strings;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -15,6 +17,9 @@ public class Rift
 
     @Mod.Instance("rift")
     public static Rift instance;
+
+    @SidedProxy(clientSide = Strings.PROXY_CLIENT, serverSide = Strings.PROXY_SERVER)
+    public static IProxy proxy;
 
     @SuppressWarnings("unused")
     @EventHandler
