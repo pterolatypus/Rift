@@ -1,8 +1,8 @@
 [
 {
-  "modid": "rift",
-  "name": "Rift",
-  "description": "Rift; all about teleporting.",
+  "modid": "${mod_id}",
+  "name": "${mod_name}",
+  "description": "Spacetime goodies!",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

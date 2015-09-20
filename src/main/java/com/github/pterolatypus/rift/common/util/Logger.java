@@ -4,7 +4,16 @@
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  */
 
-package com.github.pterolatypus.rift.proxy;
+package com.github.pterolatypus.rift.common.util;
 
-public class ServerProxy extends CommonProxy {
+import com.github.pterolatypus.rift.common.reference.Reference;
+import net.minecraftforge.fml.common.FMLLog;
+import org.apache.logging.log4j.Level;
+
+class Logger {
+
+    public static void log(Level logLevel, Object obj) {
+        FMLLog.log(Reference.MOD_NAME, logLevel, String.valueOf(obj));
+    }
+
 }
