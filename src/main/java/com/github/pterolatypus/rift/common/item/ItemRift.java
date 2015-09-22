@@ -6,9 +6,9 @@
 
 package com.github.pterolatypus.rift.common.item;
 
-import com.github.pterolatypus.platypus.ItemPlatypus;
+import net.minecraft.item.Item;
 
-public class ItemRift extends ItemPlatypus {
+public class ItemRift extends Item {
 
 
 
