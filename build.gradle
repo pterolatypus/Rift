@@ -46,7 +46,10 @@ minecraft {
     runDir = "eclipse"
 
     replaceIn "common/reference/Reference.java"
-    replace "@MOD_VERSION@", project.version
+    replace "@MOD_ID@", project.mod_id
+
+    replaceIn "common/reference/Reference.java"
+    replace "@MOD_NAME@", project.mod_name
 
     replaceIn "common/reference/Reference.java"
     replace "@MOD_VERSION@", project.version

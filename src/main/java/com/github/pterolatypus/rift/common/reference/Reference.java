@@ -8,8 +8,8 @@ package com.github.pterolatypus.rift.common.reference;
 
 public class Reference {
 
-    public static final String MOD_ID = "rift";
-    public static final String MOD_NAME = "Rift";
+    public static final String MOD_ID = "@MOD_ID@";
+    public static final String MOD_NAME = "@MOD_NAME@";
     public static final String MOD_VERSION = "@MOD_VERSION@";
     public static final String PROXY_CLIENT = "com.github.pterolatypus.rift.proxy.ClientProxy";
     public static final String PROXY_SERVER = "com.github.pterolatypus.rift.proxy.ServerProxy";

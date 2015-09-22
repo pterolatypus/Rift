@@ -11,6 +11,7 @@
   "credits": "Everyone at Forge and FML, and Pahimar for Let's Mod and for making EE3 open-source.",
   "logoFile": "",
   "screenshots": [],
+  "requiredMods": ["platypus"],
   "dependencies": []
 }
 ]
